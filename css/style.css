@@ -1,0 +1,135 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.message {
+    
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    
+
+    /* flex-direction: column;
+    background: white;
+    position: relative;
+    transition: all .4s;
+    overflow: hidden; */
+}
+
+/* .logo:nth-child(1):hover{
+    box-shadow: 0px 0px 0px 10px #4e94f0;
+}
+
+.message {
+    transition: all .4s;
+
+}
+.message:hover{
+    color: white;
+}
+.message::before{
+    content: '';
+    position: absolute;
+    border-radius: 50px;
+    transition: all .4s;
+    background: linear-gradient(147deg, #ffe538 0%, #ff2525 74%);
+
+} */
+
+/* .message:nth-child(1)::before{
+    background: linear-gradient(19deg, #21d4fd 0%, #8721ff 74%);
+
+}
+
+.message:hover::before{
+    top: 0px;
+    left: 0px;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.message text{
+    margin: 5px 50px;
+    z-index: 100;
+} */
+
+
+.container {
+    max-width: 955px;
+    border: 2px solid black;
+    margin:auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    
+    margin-bottom: 23px;
+    /* background-image: radial-gradient(#2E3192, #1BFFFF); */
+    
+}
+
+h1 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.centre {
+    display: flex;
+    margin: auto;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.btn {
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top right,#D4145A, #FBB03B);
+}
+
