@@ -5,7 +5,7 @@
 // node Server
 const io  = require('socket.io')(8000, {
     cors: {
-        origin:"http://127.0.0.1:5500",
+        origin:"https://abhinav1326.github.io/wp/",
         methods: ["GET", "POST"]
     }
 });
