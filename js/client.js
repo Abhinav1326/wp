@@ -1,4 +1,4 @@
-const socket = io('https://abhinav1326.github.io/wp/');
+const socket = io('localhost');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
