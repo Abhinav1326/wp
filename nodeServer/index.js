@@ -3,7 +3,7 @@
 // const { Socket } = require('socket.io');
 
 // node Server
-const io  = require('socket.io')(8000, {
+const io  = require('socket.io')(8888, {
     cors: {
         origin:"http://204.232.175.78",
         methods: ["GET", "POST"]
